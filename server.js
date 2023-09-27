@@ -72,4 +72,4 @@ app.get("/logout", (req, res) => {
     });
 });
 
-app.listen(3001, 'Servidor rodando!!')
+app.listen(3001, console.log('Servidor rodando!!'))
